@@ -1,7 +1,8 @@
 {
   "name": "react-teeth-selector",
+  "description": "A React dental teeth selector and odontogram component for dental charts. Easy tooth selection and visualization.",
   "private": false,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "license": "MIT",
   "scripts": {
@@ -42,5 +43,24 @@
   "homepage": "https://github.com/traval27/react-teeth-selector#readme",
   "bugs": {
     "url": "https://github.com/traval27/react-teeth-selector/issues"
-  }
+  },
+  "keywords": [
+    "odontogram",
+    "react",
+    "react-component",
+    "dental",
+    "teeth",
+    "tooth",
+    "odontogram",
+    "dental-chart",
+    "dental-selector",
+    "teeth-selector",
+    "tooth-chart",
+    "dentistry",
+    "medical",
+    "healthcare",
+    "ui-component",
+    "react-ui",
+    "react-teeth-selector"
+  ]
 }
