@@ -4,7 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [react()],
-
+  base: "/react-teeth-selector-demo/",
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/lib/index.js"),
