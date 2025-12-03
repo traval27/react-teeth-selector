@@ -1,10 +1,10 @@
-**react-teeth-selector**
+#react-teeth-selector
 
 A lightweight, SVG-based **interactive teeth diagram selector** for React.
 
 Perfect for dental applications, medical software, EHR/EMR systems, clinical dashboards, or any UI that needs tooth selection.
 
-## ⭐ Features
+## Features
 
 ✔ Select teeth by clicking  
 ✔ Hover highlight & tooltip  
@@ -16,14 +16,14 @@ Perfect for dental applications, medical software, EHR/EMR systems, clinical das
 ✔ Customizable size & styling  
 ✔ Lightweight and fast  
 
-Installation
+## Installation
 ```bash
 npm install react-teeth-selector
 or
 yarn add react-teeth-selector
 ```
 
-Quick Usage
+## Quick Usage
 ```bash
 import { useState } from "react";
 import { TeethDiagram } from "react-teeth-selector";
@@ -42,21 +42,21 @@ function App() {
 export default App;
 ```
 
-Controlled vs Uncontrolled
+## Controlled vs Uncontrolled
 
-Controlled mode
+## Controlled mode
 ```bash
 <TeethDiagram
   selectedTeeth={selected}
   onChange={(updated) => setSelected(updated)}
 />
 ```
-Uncontrolled mode
+## Uncontrolled mode
 ```bash
 <TeethDiagram defaultSelected={{ "tooth-11": true }} />
 ```
 
-Props
+## Props
 | Prop            | Type           | Default  | Description            |
 | --------------- | -------------- | -------- | ---------------------- |
 | selectedTeeth   | `{[id]: true}` | —        | Controlled mode        |
@@ -65,26 +65,16 @@ Props
 | width           | number/string  | `350`    | Component width        |
 | height          | number/string  | `"auto"` | Component height       |
 
-Project Structure
-
-src/
-  lib/
-    TeethDiagram.jsx
-    index.js
-assets/
-  teeth-selection.svg
-dist/
-
-Local Development
+## Local Development
 ```bash
 npm install
 npm run dev
 ```
 
-Build library:
+## Build library:
 ```bash
 npm run build
 ```
 
-Contributing
+## Contributing
 PRs, issues, and suggestions are welcome!
