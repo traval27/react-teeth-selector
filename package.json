@@ -2,18 +2,19 @@
   "name": "react-teeth-selector",
   "description": "A React dental teeth selector and odontogram component for dental charts. Easy tooth selection and visualization.",
   "private": false,
-  "version": "1.0.9",
+  "version": "1.0.10",
   "type": "module",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "peerDependencies": {
     "react": ">=17.0.0",
@@ -27,6 +28,7 @@
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
     "vite": "^7.2.4"
   },
@@ -40,7 +42,7 @@
     "type": "git",
     "url": "https://github.com/traval27/react-teeth-selector.git"
   },
-  "homepage": "https://github.com/traval27/react-teeth-selector#readme",
+  "homepage": "https://traval27.github.io/react-teeth-selector-demo",
   "bugs": {
     "url": "https://github.com/traval27/react-teeth-selector/issues"
   },
