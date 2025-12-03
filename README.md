@@ -24,7 +24,7 @@ yarn add react-teeth-selector
 ```
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/traval27/react-teeth-selector/main/demo.gif" width="350" />
+  <img src="https://raw.githubusercontent.com/traval27/react-teeth-selector/main/public/demo.gif" width="350" />
 </p>
 
 ## Quick Usage
