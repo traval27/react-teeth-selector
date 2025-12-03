@@ -35,27 +35,16 @@ import { TeethDiagram } from "react-teeth-selector";
 function App() {
   const [selectedTeeth, setSelectedTeeth] = useState({});
 
+  const handleTeethChange = (map, info) => {
+    setSelectedTeeth({ ...map, [info.id]: true });
+  };
+
   return (
-    <TeethDiagram
-      selectedTeeth={selectedTeeth}
-      onChange={(newMap) => setSelectedTeeth(newMap)}
-    />
+    <TeethDiagram selectedTeeth={selectedTeeth} onChange={handleTeethChange} />
   );
 }
 
 export default App;
-```
-
-## Controlled mode
-```bash
-<TeethDiagram
-  selectedTeeth={selected}
-  onChange={(updated) => setSelected(updated)}
-/>
-```
-## Uncontrolled mode
-```bash
-<TeethDiagram defaultSelected={{ "tooth-11": true }} />
 ```
 
 ## Props
