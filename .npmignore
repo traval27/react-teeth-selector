@@ -1,0 +1,7 @@
+src/
+public/
+node_modules/
+*.log
+vite.config.js
+App.jsx
+main.jsx
