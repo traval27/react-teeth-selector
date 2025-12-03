@@ -22,7 +22,7 @@ npm install react-teeth-selector
 or
 yarn add react-teeth-selector
 ```
-## Demo
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/traval27/react-teeth-selector/main/demo.gif" width="350" />
 </p>
