@@ -1,4 +1,4 @@
-#react-teeth-selector
+# react-teeth-selector
 
 A lightweight, SVG-based **interactive teeth diagram selector** for React.
 
@@ -42,8 +42,6 @@ function App() {
 export default App;
 ```
 
-## Controlled vs Uncontrolled
-
 ## Controlled mode
 ```bash
 <TeethDiagram
@@ -65,13 +63,14 @@ export default App;
 | width           | number/string  | `350`    | Component width        |
 | height          | number/string  | `"auto"` | Component height       |
 
+
 ## Local Development
 ```bash
 npm install
 npm run dev
 ```
 
-## Build library:
+## Build library
 ```bash
 npm run build
 ```
